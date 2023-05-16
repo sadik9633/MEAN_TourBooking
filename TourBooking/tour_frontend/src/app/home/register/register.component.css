@@ -1,0 +1,14 @@
+button{
+    border: none;
+}
+.userdiv{
+    position: relative;
+}
+.user{
+position:absolute;
+margin-top: -60px;
+width:90px;
+margin-left: 158px;
+
+
+}

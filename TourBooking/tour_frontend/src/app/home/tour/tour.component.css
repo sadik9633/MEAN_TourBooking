@@ -1,0 +1,78 @@
+.common_section{
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url('https://i.postimg.cc/gkvMzGKy/tour.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.common_section h1{
+    font-size:2.5rem;
+    color:#fff;
+    text-align: center;
+}
+.imh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+width: 100%;
+max-width: 80%;
+background: orange;
+display: flex;
+align-items: center;
+border-radius: 60px;
+padding: 6px 16px;
+backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input{
+    background: transparent;
+    flex:1;
+    border:0;
+    outline: none;
+    padding: 10px 6px;
+    font-size: 20px;
+    
+}
+::placeholder{
+    color:#fff;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: orange;
+    cursor: pointer;
+}
+.bad{
+    border-top-left-radius: 0px;
+     border-bottom-right-radius:0px;
+     width: 4.5rem;
+     height: 1.5rem;
+     justify-content: center;
+}
+.booking_bottom li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking_bottom li h5, .booking_bottom li span{
+    font-size:0.9rem;
+    color:  #2c2b2b;
+    font-weight: 400;
+}
+.booking_bottom{
+    margin-top: 1.5rem;
+}
+.too{
+    transition: transform 0.3s ease-in-out;
+}
+.too:hover{
+    transform: scale(0.98)
+}

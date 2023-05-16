@@ -1,0 +1,127 @@
+<footer style="background-color: rgb(213, 233, 250); margin-top:px;" class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <h2 class="mt-3 pt-5">Subscribe now to get useful traveling information.</h2>
+                <div>
+                    <form [formGroup]="nLettForm" (ngSubmit)="nLett()" class="news_input mt-3">
+                            <input  formControlName="email" id="si" name="sn" type="email" placeholder="Enter your email">
+                            <button type="submit" class="btn news_btn">Subscribe</button>
+                    </form>
+                    <span *ngIf="this.nLettForm.get('email')?.errors && this.nLettForm.get('email')?.touched">
+                      <p class="text-danger">accept only Email</p>
+                  </span>
+                </div>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repudiandae obcaecati officia nesciunt</p>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex">
+                <img  src="https://i.postimg.cc/c4XYpF4F/male-tourist.png" alt="">
+            </div>   
+        </div>
+    </div>
+</footer>
+
+<!-- footer section start -->
+ <footer class="fixed-bootom d-flex" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <a style="padding-top:10px;"routerLink="home"><img src="https://i.postimg.cc/GpxnCf6B/logo.png" width="170px" alt="" class="img-fluid logo-footer"></a>
+                    <div class="footer-about">
+                        <p style="padding-top:10px; color: #777777;">Remember that happiness is a way of travel – not a destination. </p>
+                    </div>
+
+        </div>
+        <div class="col-lg-3">
+          <div class="useful-link">
+            <h2>Quick Links</h2>
+            <div class="use-links">
+              <li><a routerLink="home"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+              <li><a routerLink="home"><i class="fa-solid fa-angles-right"></i> Tour</a></li>
+              <li><a routerLink="home/register"><i class="fa-solid fa-angles-right"></i> Register</a></li>
+              <li><a routerLink="home/login"><i class="fa-solid fa-angles-right"></i> Login</a></li>
+            </div>
+          </div>
+
+        </div>
+                  <div class="col-lg-3 ">
+                      <div class="social-links">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+              <li><a routerLink="home"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+              <li><a routerLink="home"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a routerLink="home"><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+            </div>
+          </div>
+                  
+
+                  </div>
+        <div class="col-lg-3">
+          <div class="address">
+            <h2>Address</h2>
+            <div class="address-links">
+              <li class="address1"><i class="fa-solid fa-location-dot"></i> Malappuram<br>kerala<br>India</li>
+                 <li> <i class="fa-solid fa-phone" routerLink="home"></i> +91 9633577604</li>
+                 <li><i class="fa-solid fa-envelope" routerLink="home"></i> sadik@gmail.com</li>
+            </div>
+          </div>
+        </div>
+                
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer section end -->
+  <!-- footer copy right section start -->
+
+    <div class="fixed-bootom d-flex" style="background-color: orange;" class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+        Copyright Travel World Website 2023 Powerd By <strong><a class="text-dark" href="home">Travel WORLD</a></strong>
+  <!-- footer copy right section end -->
+<!--<footer>
+<div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                  <img width="150px" src="https://i.postimg.cc/GpxnCf6B/logo.png" alt=""> 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt libero soluta architecto et nihil perspiciatis numquam similique, pariatur corrupti odit iste vero laudantium minima maiores doloribus porro minus error. Officia.</p> 
+                  <div class="card-area">
+                    <i class="fa-brands fa-youtube text-dark"></i>
+                    <i class="fa-brands fa-github text-dark"></i>
+                    <i class="fa-brands fa-facebook text-dark"></i>
+                    <i class="fa-brands fa-instagram text-dark"></i>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                  <h2>Discover</h2>  
+                  <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Tour</a></li>
+                  </ul>
+                </div>
+            </div> 
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                  <h2>Quick Links</h2>  
+                  <ul>
+                    <li><a>Gallery</a></li>
+                    <li><a>Login</a></li>
+                    <li><a>Register</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                  <h2>Contacts</h2>  
+                  <ul>
+                    <li><i class="fa-solid fa-location-dot text-warning"></i> <a> Address: Kerala,India</a></li>
+                    <li><i class="fa-regular fa-envelope text-warning"></i> <a> Email: sadik@gmail.com</a></li>
+                    <li><i class="fa-solid fa-phone text-warning"></i> <a> Phone: +91 9633577604</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>-->

@@ -1,0 +1,124 @@
+.tour_content img{
+    width: 100%;
+    border-radius: 2rem;
+    margin-bottom: 2.5rem;
+}
+.rebtn{
+    border: none;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    width: 4rem;
+    padding: 0.2rem;
+}
+@media (max-width: 325px) {
+    .rebtn {
+      border-radius: 2px;
+      font-size: .5rem;
+      font-weight: lighter;
+      width: 3rem;
+      height: 2rem;
+
+    }
+  }
+
+
+.review_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 0.3rem;
+    border-radius: 2rem;
+    border: 1px solid orange;
+    margin-left: 5%;
+}
+@media (max-width: 768px) {
+    .review_input {
+      border-radius: 1rem;
+
+    }
+  }
+
+.review_input input{
+    width: 100%;
+    padding: 0.1rem 0;
+    border:none;
+   
+}
+.review_input input:focus{
+    outline: none;
+}
+.booking{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border:1px solid rgb(229,231,235);
+    
+}
+.booking_top h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+.booking_top h3 span{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(77, 74, 74);
+}
+.booking_top span{
+    font-weight: 500;
+    color: #6e7074;
+}
+.booking_top li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.booking_top{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(229,231,235);
+}
+.booking_form{
+    padding-top: 1rem;
+}
+.booking_form h5{
+    margin-bottom: 1rem;
+}
+.booking_form input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color:rgb(72, 68, 68);
+    font-size:1rem;
+    border:none;
+    border-bottom: 1px solid rgb(229,231,235);
+    
+}
+.booking_form input:focus{
+    outline: none;
+}
+.booking_info-form{
+    padding: 1.5rem;
+    border: 1px solid rgb(229,231,235);
+}
+.booking_bottom li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking_bottom li h5, .booking_bottom li span{
+    font-size:0.9rem;
+    color:  #2c2b2b;
+    font-weight: 400;
+}
+.booking_bottom{
+    margin-top: 1.5rem;
+}
+.total h5, .total span{
+    color: black !important;
+    font-weight:600 !important;
+    font-size: 1.1rem !important;
+    overflow-y: hidden;
+    margin-top: 1.5rem;
+}

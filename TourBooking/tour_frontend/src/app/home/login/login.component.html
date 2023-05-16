@@ -1,0 +1,27 @@
+<div id="us" class="container w-75 card shadow-lg p-3 mb-5 bg-body-tertiary rounded " style="margin-top:40px; border:none;" >
+    <div class="row g-0">
+      <div class="container text-center col-md-6">
+        <img width="400px" src="https://i.postimg.cc/XJLp4z32/login.png"  class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class= "col-md-6 bg-warning">
+        <div class="card-body bg-warning userdiv">
+
+         <!--      <img class="user" src="https://i.postimg.cc/B6NmxmSk/user.png" alt="">--> 
+    
+           <h4 class="card-title text-center text-white fs-4 mt-5 overflow-y-hidden" ><strong>Login</strong></h4>
+            <form [formGroup]="loginForm" (ngSubmit)="login()" class="container w-75 mt-2">
+                <input formControlName="email" name="en" id="ei" type="email" placeholder="Email Id" class="form-control mt-4">
+                <span *ngIf="this.loginForm.get('email')?.errors && this.loginForm.get('email')?.touched">
+                  <p class="text-danger">accept only Email</p>
+              </span>
+                <input formControlName="password" name="pn" id="pi" type="password" placeholder="password" class="form-control mt-4">
+                <span *ngIf="this.loginForm.get('password')?.errors && this.loginForm.get('password')?.touched">
+                  <p class="text-danger">Must be six characters long</p>
+              </span>
+                <button type="submit" class="form-control mt-4 bg-dark text-white" >Login</button>
+                <p class="text-center text-white  mt-4">Don't have an Account? <a routerLink="//home/register" class="text-dark"><strong>Register</strong></a></p>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>

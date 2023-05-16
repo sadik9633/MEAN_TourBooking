@@ -1,0 +1,191 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="hero_content">
+                    <div class="hero_subtitle d-flex align-item-center">
+                        <button class="bn text-center bg-warning"> <h4 class="bnn text-dark m-2">Know Before You Go</h4></button>
+                        <img src="https://i.postimg.cc/tCVjTnJx/world.png" alt="">
+                    </div>
+                    <h1 class="fw-bolder fs-3 mt-3" style="overflow-y: hidden;">Traveling opens the door to creating <span class=" text-warning"> memories</span></h1>
+                    <p class="text-secondary mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, eaque consequuntur hic, ea, odio sunt illo explicabo similique placeat velit nostrum perspiciatis voluptas illum incidunt mollitia? Distinctio doloribus nostrum rem?</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="hero_image-box mt-5">
+                    <img src="https://i.postimg.cc/QxH9CCkG/hero-img01.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="hero_image-box mt-4">
+                    <img src="https://i.postimg.cc/7ZSLJ25c/hero-img02.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="hero_image-box mt-5">
+                    <img src="https://i.postimg.cc/vB1PSdx6/gallery-03.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <div class="container" style="margin-top: 110px;">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <h5 class="services_subtitle">What we serve</h5>
+                <h2 class="services_title" style=" overflow-y: hidden;">We offer our best services</h2>
+            </div>
+            <div class="col-lg-3 col-md-6 servise_item" style="border-bottom: 1px solid #f08c0186;
+            border-right: 1px solid #ff950186;">
+                <img class="services_img" src="https://i.postimg.cc/2ytd99R0/weather.png" alt="">
+                <h5 style=" overflow-y: hidden;">Calculate Weather</h5>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam esse, </p> 
+            </div>
+            <div class="col-lg-3 col-md-6 servise_item" style="border-bottom: 1px solid #f08c0186;
+            border-right: 1px solid #ff950186;">
+                <img class="services_img" src="https://i.postimg.cc/pdVZTFZY/guide.png" alt="">
+                <h5 style=" overflow-y: hidden;">Best Tour Guide</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam esse, </p> 
+
+            </div>
+            <div class="col-lg-3 col-md-6 servise_item" style="border-bottom: 1px solid #f08c0186;
+            border-right: 1px solid #ff950186;">
+                <img class="services_img" src="https://i.postimg.cc/J4LDQWkG/customization.png" alt="">
+                <h5 style=" overflow-y: hidden;">Customization</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab aliquam esse, </p> 
+
+            </div>
+        </div>
+    </div>
+
+
+ <!-- Section-->
+ <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <button class="be text-center bg-warning"> <h4 class="bee text-dark ">Explore</h4></button>  
+                <h2 class="gallery_title">Our Featured Tours</h2>
+            </div>
+         </div>
+    </div>
+
+    <app-search></app-search>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="too col-lg-3 col-md-6 col-sm-12 pb-5" *ngFor="let tours of tours | filter :searchItem : 'city' ">
+                    <div class="card" style="background: rgb(240, 240, 240); border: none;">
+                        <img style="height: 200px;"  routerLink="/home/viewtrip/{{tours.id}}" src={{tours.photo}} alt="">
+                        <div class="badge bg-warning text-white position-absolute" style="top: 0.5rem; right: 0.5rem; border-top-left-radius: 0px;
+                        border-bottom-right-radius:0px; justify-content: center;">featured</div>
+                        <div class="card-body">
+                                <a routerLink="/home/viewtrip/{{tours.id}}"><h5 class=" text-center"><strong>{{tours.title}}</strong></h5></a>
+                            <div class="text-center">
+                                <i class="fa-solid fa-money-check-dollar text-warning"></i> <span> <strong> ${{tours.price}} </strong> /per person</span>
+                            </div>
+                            <div class="mt-3 text-center">
+                                <h3> <i class="fa-solid fa-location-dot text-warning"></i> {{tours.city}}</h3>
+                            </div> 
+                        </div>
+                            <button class="card-footer bg-warning text-center text-white p-2 fs-6 " routerLink="/home/viewtrip/{{tours.id}}" style="border: none;"><strong>Booking Now</strong></button>
+                    </div>      
+                </div>
+            </div>
+         </div>
+        
+    </section>    
+
+
+    <section>
+        <div class="container">
+           <div class="row">
+            <div class="col-lg-6">
+<div class="experience_content">
+    <button class="be text-center bg-warning"> <h4 class="bee text-dark ">Experience</h4></button>
+    <h2 style=" overflow-y: hidden;">with our all experience <br> we will serve you</h2>
+    <p style=" overflow-y: hidden;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Laboriosam, distinctio aperiam! </p>
+    
+</div>
+
+            </div>
+            <div class="col-lg-6">
+            <div class="exp_img">
+                <img src="https://i.postimg.cc/2SG2WTMq/experience.png" alt="">
+            </div>
+            </div>
+
+           </div> 
+        </div>
+    </section>
+
+
+<section>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <button class="be text-center bg-warning"> <h4 class="bee text-dark ">Gallery</h4></button>  
+            <h2 class="gallery_title">Visit our customers tour gallery</h2>
+        </div>
+        <div class="col-lg-12">
+            <div class=" container-fluid">
+                <div class="gallery" style="width: 90%;">
+            <div class="h-strtch to ">
+                <img src="https://i.postimg.cc/2SKSN4XL/gallery-01.jpg" alt="">
+            </div>
+            
+            <div class="v-strtch to">
+                <img  src="https://i.postimg.cc/Y0Ft7VZv/gallery-07.jpg" alt="">
+    
+            </div>
+            
+            <div class="h-strtch to">
+                <img src="https://i.postimg.cc/V65TQCpv/gallery-02.jpg" alt="">
+    
+            </div>
+            
+            <div class="v-strtch to">
+                <img src="https://i.postimg.cc/JnWySNGc/gallery-06.jpg" alt="">
+    
+            </div>
+            
+            <div class="h-strtch to">
+                        <img src="https://i.postimg.cc/vB1PSdx6/gallery-03.jpg" alt="">
+    
+            </div>
+            
+            <div class="v-strtch to">
+                <img  src="https://i.postimg.cc/SxscGfMn/gallery-04.jpg" alt="">
+    
+            
+            </div>
+            
+            <div class="h-strtch to">
+                <img src="https://i.postimg.cc/X7N5Vkxs/gallery-05.jpg" alt="">
+    
+            
+            </div>
+            
+            <div class="v-strtch to">
+                <img src="https://i.postimg.cc/QxH9CCkG/hero-img01.jpg" alt="">
+            
+            </div>
+            <div class="v-strtch to">
+                <img src="https://i.postimg.cc/Yq7fPn9S/tour-img01.jpg" alt="">
+            
+            </div>
+            
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+       
+    

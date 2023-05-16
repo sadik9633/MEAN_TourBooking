@@ -1,0 +1,149 @@
+[
+      {  "id":1,
+      "title": "Westminister Bridge",
+      "city": "London",
+      "address": "Somewhere in London",
+      "distance": 300,
+      "price": 89,
+      "maxGroupSize": 10,
+      "desc": "this is the description",
+      "reviews": 
+        {
+          "name": "jhon doe",
+          "rating": 4.6
+        }
+      ,
+  
+      "photo": "https://i.postimg.cc/3NZDRZ13/tour-img01.jpg",
+      "featured": true
+    },
+    { "id":2,
+      "title": "Bali, Indonesia",
+      "city": "Bali",
+      "address": "Somewhere in Indonesia",
+      "distance": 400,
+      "price": 99,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "sadik",
+        "rating": 4.3
+      },
+  
+      "photo": "https://i.postimg.cc/vZT6YfVd/tour-img02.jpg",
+      "featured": true
+    },
+    {"id":3,
+      "title": "Snowy Mountains, Thailand",
+      "city": "Bangkok",
+      "address": "Somewhere in Thailand",
+      "distance": 500,
+      "price": 100,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "jhon doe",
+        "rating": 4.5
+      },
+  
+      "photo": "https://i.postimg.cc/mDyrNgHw/tour-img03.jpg",
+      "featured": true
+    },
+    {"id":4,
+      "title": "Beautiful Sunrise, Thailand",
+      "city": "Phuket",
+      "address": "Somewhere in Thailand",
+      "distance": 500,
+      "price": 99,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "Ammu",
+        "rating": 4.1
+      },
+  
+      "photo": "https://i.postimg.cc/8P0zb3jq/tour-img04.jpg",
+      "featured": true
+    },
+    {"id":5,
+      "title": "Nusa Pendia Bali, Indonesia",
+      "city": "Bali",
+      "address": "Somewhere in Indonesia",
+      "distance": 500,
+      "price": 109,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "jhon doe",
+        "rating": 4.6
+      },
+  
+      "photo": "https://i.postimg.cc/LsRKkBBc/tour-img05.jpg",
+      "featured": true
+    },
+    {"id":6,
+      "title": "Cherry Blossoms Spring",
+      "city": "Tokyo",
+      "address": "Somewhere in Japan",
+      "distance": 500,
+      "price": 99,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "Anu",
+        "rating": 4.9
+      },
+  
+      "photo": "https://i.postimg.cc/PxpgT3t8/tour-img06.jpg",
+      "featured": true
+    },
+    {"id":7,
+      "title": "Holmen Lofoten, France",
+      "city": "Paris",
+      "address": "Somewhere in France",
+      "distance": 500,
+      "price": 99,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "jhon doe",
+        "rating": 4.5
+      },
+  
+      "photo": "https://i.postimg.cc/zvYc5qt9/tour-img07.jpg",
+      "featured": true
+    },
+    {"id":8,
+      "title": "Jaflong, Sylhet",
+      "city": "Sylhet",
+      "address": "Somewhere in Sylhet",
+      "distance": 100,
+      "price": 99,
+      "maxGroupSize": 5,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "sadik",
+        "rating": 4.9
+      },
+  
+      "photo": "https://i.postimg.cc/L5sZJ1bf/gallery-02.jpg",
+      "featured": false
+    },
+    {"id":9,
+      "title": "Cox's Bazar Sea Beach",
+      "city": "Chittagong",
+      "address": "Somewhere in Chittagong",
+      "distance": 500,
+      "price": 88,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": {
+        "name": "jhon doe",
+        "rating": 4.2
+      },
+  
+      "photo": "https://i.postimg.cc/3NZDRZ13/tour-img01.jpg",
+      "featured": false
+    }
+  ]
+  
